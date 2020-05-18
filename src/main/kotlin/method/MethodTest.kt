@@ -8,6 +8,19 @@ package method
 
 fun main(args: Array<String>) {
 //    cost { }
+//    val index = 3
+//    val num = run {
+//        when (index) {
+//            0 -> "kotlin"
+//            1 -> "java"
+//            2 -> "php"
+//            3 -> "javaScript"
+//            else -> "none"
+//        }
+//    }.length
+
+    val a: String? = "null"
+    println(a!!)
 }
 
 fun cost(block: () -> Unit) {
@@ -15,6 +28,7 @@ fun cost(block: () -> Unit) {
     block()
     val end = System.currentTimeMillis()
     println("${end - start}")
+
 }
 
 fun fibonacci(): () -> Long {
