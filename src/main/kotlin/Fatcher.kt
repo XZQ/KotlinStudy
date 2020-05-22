@@ -13,11 +13,11 @@ class Fatcher {
     lateinit var son: Son
 
     val son1: Son by lazy {
-        Son()
+        Son("xzq")
     };
 }
 
-class Son
+class Son(private var a: String)
 
 private const val USER = 1
 private const val DEBUG = 2

@@ -53,7 +53,7 @@ fun main(args: Array<String>) {
 //        println(it)
 //    }
 
-//    //3 除了o，全部打印,会打印--->
+    //3 除了o，全部打印,会打印--->
 //    arrayOfchar.forEach Continuing@{
 //        if ('o' == it) return@Continuing
 //        println(it)
