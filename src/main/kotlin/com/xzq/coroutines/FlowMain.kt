@@ -1,4 +1,4 @@
-package coroutines
+package com.xzq.coroutines
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.BufferOverflow
@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.selects.select
 
 fun main() {
-    testBack2()
+    testFlow()
 }
 
 fun testBack2() = runBlocking<Unit> {
@@ -46,6 +46,7 @@ fun testBack1() = runBlocking<Unit> {
     }
     Thread.sleep(10000L)
 }
+
 // https://www.jianshu.com/p/52e750ca2643
 var time = 0L
 fun testBack() = runBlocking<Unit> {
