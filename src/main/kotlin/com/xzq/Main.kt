@@ -9,12 +9,6 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 import kotlin.system.measureTimeMillis
 
-
-//import kotlinx.coroutines.*
-//import java.math.BigDecimal
-//
-//
-
 const val COUNTDOWN_TIME = 2 * 60 * 1000L
 
 fun main() {
@@ -34,8 +28,7 @@ fun main() {
 //
 //    Thread.sleep(2 * 60 * 1000L)
 
-    val count = COUNTDOWN_TIME / 1000L - 2321 / 1000L +1
-
+    val count = COUNTDOWN_TIME / 1000L - 2321 / 1000L + 1
     println("count=$count")
 }
 

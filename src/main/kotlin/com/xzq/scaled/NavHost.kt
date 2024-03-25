@@ -1,4 +1,4 @@
-package scaled
+package com.xzq.scaled
 
 sealed class TravelAdvisoriesDestination(val route: String) {
 
